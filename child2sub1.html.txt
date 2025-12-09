@@ -1,0 +1,11 @@
+<!DOCTYPE html><html><head>
+<meta charset="UTF-8"><title>pnminh12t1</title>
+<link rel="stylesheet" href="style.css">
+</head><body>
+<header><a href="index.html"><img src="hanoi.png" style="height:60px;"></a>
+<nav><a href="child1.html">Trang con 1</a>
+<a href="child2.html">Trang con 2</a>
+<a href="child3.html">Trang con 3</a></nav></header>
+<main><h1>Trang cháu 2-1</h1><p>Pho Ha Noi.</p>
+<img src="child2sub1.jpg"></main>
+</body></html>
