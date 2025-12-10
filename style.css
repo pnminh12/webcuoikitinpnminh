@@ -2,3 +2,53 @@ body {font-family: Arial;}
 header {display:flex; flex-direction:column; align-items:center;}
 nav a {margin:0 10px;}
 main {width:70%; margin:auto;}
+.ad-sidebar {
+  position: fixed;
+  top: 120px;
+  width: 160px;
+}
+
+.ad-sidebar.left {
+  left: 20px;
+}
+
+.ad-sidebar.right {
+  right: 20px;
+}
+/* Khung ngoài – CĂN GIỮA MÀN HÌNH */
+.page {
+  max-width: 1200px;   /* giới hạn chiều ngang */
+  margin: 0 auto;      /* CĂN GIỮA */
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 160px 1fr 160px; /* trái – giữa – phải */
+  gap: 24px;
+}
+
+/* Nội dung chính */
+.content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Sidebar quảng cáo */
+.ad-sidebar {
+  text-align: center;
+}
+
+.ad-sidebar img {
+  width: 100%;
+  border-radius: 8px;
+}
+.content {
+  text-align: center; /* căn giữa nội dung */
+}
+
+.center-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* QUAN TRỌNG */
+}
